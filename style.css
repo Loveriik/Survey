@@ -4,6 +4,13 @@ header{
     margin:0 auto;
     font-family: 'Mukta', sans-serif;
     font-family: 'Tai Heritage Pro', serif;
+    color:white;
+}
+header p{
+    margin-top:0;
+}
+header h1{
+    margin-bottom:0;
 }
 label{
     display:block;
@@ -13,7 +20,7 @@ fieldset{
     margin: 0 auto;
     font-family: 'Mukta', sans-serif;
     font-family: 'Tai Heritage Pro', serif;
-    background-color:rgb(27, 27, 50);
+    background-color:rgba(27, 27, 50,0.7);
     color:white;
 }
 .selection{
@@ -62,6 +69,6 @@ textarea{
 }
 body{
     background-image: url(https://images.hdqwalls.com/wallpapers/samsung-galaxy-s21-stock-lm.jpg);
+    background-size: cover;
     background-repeat:no-repeat;
-    background-size:100% auto;
 }
