@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
+        <title>Survey</title>
+    </head>
+    <body>
+        <header>
+            <h1>Survey form</h1>
+            <p>Complete the questions below and help us to improve.</p>
+        </header>
+        <form >
+            <fieldset>
+                <label> Name</label><input type="text" placeholder="Input your name" class="bio">
+                <label> Email </label><input type="email" placeholder="Input your Email" class="bio">
+                <label> Age </label><input type="number" min="14" max="90" placeholder="Input your Age" class="bio">
+            </fieldset>
+            <fieldset>
+                <label> Which option would be good to implement in our webpage? </label>
+                    <select class="selection">
+                        <option> Choose an option</option>
+                        <option> Video tutorials</option>
+                        <option> Online chat</option>
+                        <option> Tips section</option>
+                    </select>
+            </fieldset>
+            <fieldset>
+                <label>Would you recommend our webpage to others?</label>
+                    <input type="radio" name="opinion" class="opinions"> Definetely
+                    <br><input type="radio" name="opinion" class="opinions"> Maybe
+                    <br><input type="radio" name="opinion" class="opinions"> No
+                    <br><input type="radio" name="opinion" class="opinions"> Not sure
+            </fieldset>
+            <fieldset>
+                <label> What would you like to be improved? </label>
+                    <input type="checkbox" class="improvements"> Visualisation
+                    <br><input type="checkbox" class="improvements"> Perfomance
+                    <br><input type="checkbox" class="improvements" > Accessibility
+                    <br><input type="checkbox" class="improvements"> Content quality
+            </fieldset>
+            <fieldset>
+                <label> Tell us more about your personal experience of using our product </label>
+                    <textarea rows="5" cols="60" placeholder="Your experience"></textarea>
+                    <input type="submit" value="Submit" class="submission">
+            </fieldset>
+        </form>
+    </body>
+</html>
