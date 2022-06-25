@@ -63,6 +63,5 @@ textarea{
 body{
     background-image: url(https://images.hdqwalls.com/wallpapers/samsung-galaxy-s21-stock-lm.jpg);
     background-repeat:no-repeat;
-    background-size:cover;
-    height:100vh;
+    background-size:100% auto;
 }
